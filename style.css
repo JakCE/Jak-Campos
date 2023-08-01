@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+    background-color: #ede7de;
+    color: #025a4e;
+}
+p::selection,h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,li::selection,span::selection{
+    background-color: #025a4e;
+    color: #ede7de;
+}
+
+/*NAVBAR*/
+nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: #f5f2ec;
+    width: auto;
+    border-radius: 30px;
+}
+nav ul li{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 30px;
+    background-color: #f5f2ec;
+    color: #025a4e;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: #fff;
+}
+span{
+    background-color: transparent;
+}
+/*Nombre JAK*/
+.titlename{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  200px 0px 100px 0px;
+}
+.titlename h1{
+    font-size: 100px;
+}
+/*Presentacion*/
+.presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.foto{
+    padding: 0px 100px;
+    margin-left: 50px;
+    width: 750px;
+    height: auto;
+}
+.foto-jak{
+    border-radius: 200px 200px 0px 0px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.spotify-datos{
+    width: 100%;
+    background-color: #025a4e;
+    display: flex;
+}
+.icono-spotify{
+    width: 25%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spotifylogo{
+    width: 50%;
+    background-color: transparent;
+    padding: 10px;
+}
+.info{
+    display: block;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.text-info {
+    background-color: transparent;
+    color: #f5f2ec;
+    padding: 2px 0px;
+}
+.present-text{
+    width: 100%-750px;
+}
+.present-text h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.present-text p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #506a60;
+}
+.text-pre{
+    padding-right: 120px;
+}
